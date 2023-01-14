@@ -1,3 +1,6 @@
+setup:
+	ioreg -p IOUSB -b -n "Open DFU Bootloader"
+	
 clean:
 	cargo clean
 
